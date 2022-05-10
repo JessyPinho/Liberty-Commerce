@@ -1,0 +1,390 @@
+/* GENERAL*/
+* {
+  margin:0;
+  padding:0;
+}
+html, body{
+height: 100%;
+}
+h1, h3 {
+text-align: center;
+}
+.active{
+  color: #1C2199;
+} 
+/* HEADER NAVBAR*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 2%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.bouton3 {
+  color:white;
+  border-radius: 0px;
+  background: grey;
+  box-shadow:  15px 15px 26px #868686,
+              -15px -15px 26px grey;
+}
+.bouton-menu {
+  color:white;
+  border-radius: 0px;
+  background: grey;
+  box-shadow:  15px 15px 26px #a82e2e,
+              -15px -15px 26px #a82e2e;
+}
+/*CATALOGUE*/
+
+.container {
+margin:5% 0%
+}
+.wrapper {
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+max-width: 300px;
+ min-height: 250px;
+ background: #1C2199;
+ padding: 30px;
+ box-sizing: border-box;
+ color: #FFF;
+ margin:20px;
+ box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+img{
+ margin: 3% 22%;
+width: 50%;
+}
+.card:nth-child(2){
+background: #3A998F;
+}
+.card:last-child{
+background: #E6A340;
+}
+.card-title{
+ margin-top: 0;
+ font-size: 16px;
+ font-weight: 600;
+ letter-spacing: 1.2px;
+}
+.card-content{
+ font-size: 14px;
+ letter-spacing: 0.5px;
+ line-height: 1.5;
+}
+.card-btn{
+ all: unset;
+ margin: 0% 4%;
+ margin-top: 6%;
+ border: 2px solid #FFF;
+ padding: 10px 15px;
+ border-radius: 25px;
+ font-size: 10px;
+ font-weight: 600;
+ transition: all 0.5s;
+ cursor: pointer;
+ letter-spacing: 1.2px;
+}
+.card-btn:hover{
+color:#02b875;
+background: #FFF;
+}
+.card:nth-child(2) .card-btn:hover{
+color:#4181ee;
+background: #FFF;
+}
+.card:last-child .card-btn:hover{
+color:#673ab7;
+ background: #FFF;
+}
+
+/*PRODUIT*/
+.container {
+  margin:5% 0%
+}
+.wrapper {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cardprod{
+  max-width: 600px;
+   min-height: 500px;
+   background: #1C2199;
+   padding: 30px;
+   box-sizing: border-box;
+   color: #FFF;
+   margin:20px;
+   box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+.card-title{
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.card-content{
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.card-btn{
+  all: unset;
+  margin: 0% 4%;
+  margin-top: 6%;
+  border: 2px solid #FFF;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.card-btn:hover{
+ color:#02b875;
+ background: #FFF;
+} 
+
+
+/*AUTHENTIFICATION*/
+.Reset {
+  display: flex;
+  justify-content: center;
+  padding:5px;
+  color:black;
+  text-decoration: none;
+  text-align:center;
+}
+.containerj {
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px 20px 100px;
+  border: 0px solid white;
+  text-align: center;
+/*background: linear-gradient(90deg, rgba(191,213,214,1) 0%, rgba(188,255,238,1) 35%, rgba(231,255,214,1) 100%);
+*/background:orange;
+  background-size:cover;
+  box-sizing: border-box;
+  margin-left: 40%;
+  margin-top: 140px;
+}
+.container2 {
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px 100px;
+  border: 0px solid white;
+  text-align: center;
+/*background: linear-gradient(90deg, rgba(227,240,204,1) 0%, rgba(217,217,195,1) 35%, rgba(240,236,204,1) 100%);
+*/background:orange;
+  background-size:cover;
+  box-sizing: border-box;
+  margin-left: 40%;
+  margin-top: 100px;
+}
+.container3 {
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 20px 100px;
+  border: 0px solid white;
+  text-align: center;
+/* background: linear-gradient(90deg, rgba(245,245,221,1) 0%, rgba(217,217,195,1) 35%, rgba(191,191,172,1) 100%);
+*/background:orange;
+  box-sizing: border-box;
+  margin-left: 40%;
+  margin-top: 200px;
+}
+.Login_container {
+margin-bottom: 20px;
+}
+.Register_container {
+margin-bottom: 20px;
+}
+.Reset_container {
+margin-bottom: 20px;
+}
+button:hover {
+opacity:0,7;
+}
+.margin1 {
+padding: 5px;
+}
+.margin2 {
+padding: 5px;
+}
+.margin3 {
+padding: 5px;
+}
+.margin4 {
+padding: 5px;
+}
+.margin5 {
+padding: 5px;
+}
+
+/*PANIER*/
+th, td {
+  padding: 20px;
+  border: 2px solid black;
+}
+th {
+/*background: linear-gradient(90deg, rgba(245,245,221,1) 0%, rgba(217,217,195,1) 35%, rgba(191,191,172,1) 100%);
+  */background:orange;
+}
+table {
+  margin:auto;
+  margin-top:12%
+}
+.bouton2 {
+  text-align: center;
+  display:inline-block;
+  padding: 10px;
+  margin-left:46%;
+  margin-top: 1%;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+.bouton2:hover {
+  opacity:3;
+  background: black;
+  color: white;
+}
+/*PANIER*/
+
+/*ADMIN*/
+
+input[type=text], select, textarea{
+width: 100%;
+padding: 12px;
+border: 2px solid #ccc;
+border-radius: 7px;
+box-sizing: border-box;
+resize: vertical;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+font-weight: bolder;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+margin: 2% 35%;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+float: right;
+}
+
+
+.container {
+  border-radius: 5px;
+/*background: rgb(245,245,221);
+  background: linear-gradient(90deg, rgba(245,245,221,1) 0%, rgba(222,218,189,1) 35%, rgba(222,218,189,1) 100%);
+*/padding: 20px;
+}
+
+.formposition {
+margin-left: 14%;
+}
+
+.col-15 {
+float: left;
+width: 15%;
+margin-top: 6px;
+}
+
+
+.col-50 {
+float: left;
+width: 50%;
+margin-top: 6px;
+}
+#image{
+width: 40%;
+}
+#descript{
+height: 200px;
+}
+.row{
+padding: 0% 0% 4%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-15, .col-50, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+}
+
+
+/*ADMIN*/
+
+
+
+/*FOOTER*/ 
+
+footer {
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:150px;
+    background-color: gray;
+    color: white;
+}
+
+footer p{
+  text-align: center;
+  padding: 1%;
+}
+
+.footer2 {
+  position:absolute;
+  bottom:0;
+  text-align: center;
+  width:100%;
+  padding-top:50px;
+  height:150px;
+  background-color: gray;
+  color: white;
+}
+/*FOOTER*/
